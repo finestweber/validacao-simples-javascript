@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: 0;
+}
+body{
+    background-image: url(../images/logo-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.login-form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+
+    background: rgba(0, 0, 0, 0.50);
+}
+.login-div{
+    background: rgba(0, 0, 0, 0.65);  
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
+    padding: 2em;
+    border-radius: 9px;
+}
+.login-input{
+    font-size: 1.2em;
+    font-style: italic;
+    padding: 12px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 15px;
+
+}
+.login-button{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 9px;
+    font-size: 1em;
+    padding: 15px;
+    color: #fff;
+    background-color: #226f54;
+}
+.login-button:disabled{
+    background-color: #e63946; 
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+}
